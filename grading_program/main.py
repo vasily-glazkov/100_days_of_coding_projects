@@ -10,8 +10,6 @@ student_scores = {
 student_grades = {}
 
 # TODO-2: Write your code below to add the grades to student_grades.👇
-
-
 for key in student_scores:
     if student_scores[key] > 90 and student_scores[key] <= 100:
         student_grades[key] = "Outstanding"
@@ -21,7 +19,6 @@ for key in student_scores:
         student_grades[key] = "Acceptable"
     else:
         student_grades[key] = "Fail"
-
 
 # 🚨 Don't change the code below 👇
 print(student_grades)
